@@ -42,8 +42,11 @@ body{
 .bordersvglogo{
     border: 5px solid white;
 }
-.fz1r{
-    /* font-size: 0.8rem; */
+.w-35{
+    width: 35%;
+}
+.fw6{
+    font-weight: 600;
 }
 
 /* -----header-------------- */
@@ -259,6 +262,14 @@ body{
     border-top: 1px solid #000;
     border-right: 1px solid #000;
     transform: rotate(45deg);
+}
+
+/* ---------------footer---------------- */
+.footerbg{
+    background: url(./images/footer-bg.jpg) center center  repeat;
+    width: 100%;
+    /* height: 30vw; */
+    background-size: cover;
 }
 
 @media (min-width:992px){
