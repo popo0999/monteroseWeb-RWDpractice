@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
 body{
     margin: 5px;
-    font-size: 12px;
+    font-size: 12px;    
+    
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .tac{
     text-align: center;
@@ -9,12 +14,37 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
-.lh125rem{
-    line-height: 1.5rem;
-    letter-spacing: 0.2rem;
+.fz14b{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.fz12{
+    font-size: 12px;
+    color: #666;
+    letter-spacing: normal;
+    font-weight:500;
 }
 
+.lh125rem{
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
 
+.flexcc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bordersvglogo{
+    border: 5px solid white;
+}
+.fz1r{
+    /* font-size: 0.8rem; */
+}
 
 /* -----header-------------- */
 .bgimg{
@@ -46,10 +76,13 @@ body{
 .menutext{
     font-size: 12px;
 }
+.w-65{
+    width: 65%;
+}
 
 .title{
     position: absolute;
-    bottom: 160px;
+    bottom: 30%;
     left: 20px;
     color: white;
     font-weight: bolder;
@@ -149,6 +182,8 @@ body{
 .seemore{
     text-align: center; 
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 .product p{
     margin-bottom: 0.1rem;
@@ -171,11 +206,67 @@ body{
     width: 96px;
     fill: #D88B83;
 }
+.pinkbtn{
+    background-color: #D88B83;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px  0px;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    width: 50%;
+    margin-top: 50px;
 
+}
+/* ---------------news------------------------ */
+.news{
+    background-color: #F9F4EA;
+}
+.newstitle{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 28px;
+    letter-spacing: 0.1rem;
+}
+
+.notify a{
+    color: black;
+    /* line-height: 40px; */
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 3px solid #000;
+    letter-spacing: 0.2rem;
+}
+.newstheme{
+    font-family:gill-sans-nova,sans-serif
+}
+.map a{
+    color: black;
+    /* line-height: 40px; */
+    /* font-weight: bold; */
+    font-size: 14px;
+    border-bottom: 3px solid #000;
+    letter-spacing: 0.1rem;
+}
+.map::after{
+    display: inline-block;
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    transform: rotate(45deg);
+}
 
 @media (min-width:992px){
     .minw150{
         max-width: 150px;
+    }
+    .maxh168{
+        max-height: 168px;
     }
 }
 
