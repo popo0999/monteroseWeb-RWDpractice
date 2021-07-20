@@ -28,7 +28,17 @@ body{
     letter-spacing: normal;
     font-weight:500;
 }
-
+.fz14{
+    font-size: 14px;
+    color: #666;
+    letter-spacing: normal;
+    font-weight:400;
+    line-height: 1.75rem;
+    letter-spacing: 0.1rem;
+}
+.hfc{
+    height:fit-content;
+}
 .lh125rem{
     line-height: 1.5rem;
     letter-spacing: 0.1rem;
@@ -48,7 +58,9 @@ body{
 .fw6{
     font-weight: 600;
 }
-
+.bdb1{
+    border-bottom: 2px solid #fff;
+}
 /* -----header-------------- */
 .bgimg{
     background: url(./images/mainvisual-image1.jpg) center center;
@@ -60,14 +72,14 @@ body{
 .logo svg{
     width: 40px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 30px;
+    left: 4%;
 }
 
 .hambar{
     position: fixed;
-    right: 30px;
-    top: 25px;
+    right: 5%;
+    top: 50px;
     /* font-size: 1.5rem; */
     text-align: center;
     z-index: 999;
@@ -103,16 +115,16 @@ body{
 }
 .soonaround{
     position: absolute;
-    left: 20px;
-    bottom: 10px;
+    left: 4%;
+    bottom: 30px;
     width: 138px;
     fill: #fff;
 }
 .soontext{
     position: absolute;
     transform: rotate(-15deg);
-    left: 20px;
-    bottom:60px;
+    left: 4%;
+    bottom:80px;
     width: 130px;
 }
 .soonlogo{
@@ -121,8 +133,61 @@ body{
     stroke: white;
     opacity: 0.5;
     width: 150px;
-    bottom: 0;
-    left: 10px;
+    bottom: 20px;
+    left: 3.5%;
+}
+/* ------header d-md-------- */
+.hli14{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    /* margin-top: 40px; */
+    /* margin: 10px 0; */
+}
+.h30{
+    height: 35px;
+    letter-spacing: 0.2rem;
+}
+.posaul{
+    position: absolute;
+    top: 140px;
+    left: 4%;
+}
+.titlemd{
+    position: absolute;
+    right: 4%;
+    top: 90px;
+    text-align: right;
+}
+.maintitle{
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+.iconfbig{
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    right: 4%;
+    top: 50px;
+}
+.header-shop-info{
+    position: absolute;
+    bottom: 20px;
+    right: 4%;
+    color: #fff;
+    text-align: right;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.2rem;
+}
+.header-shop-info .map a{
+    color: #FFF;
+    border-bottom: 3px solid #fff;
+}
+.header-shop-info .map::after{
+    border-top: 1px solid #FFF;
+    border-right: 1px solid #fff;
 }
 
 /* -----section----------- */
@@ -258,7 +323,7 @@ body{
     content: "";
     width: 7px;
     height: 7px;
-    background-color: #fff;
+    background-color: transparent;
     border-top: 1px solid #000;
     border-right: 1px solid #000;
     transform: rotate(45deg);
@@ -271,6 +336,13 @@ body{
     /* height: 30vw; */
     background-size: cover;
 }
+
+@media (min-width:768px){
+    .logo svg{
+        top: 50px;
+    }
+}
+
 
 @media (min-width:992px){
     .minw150{
