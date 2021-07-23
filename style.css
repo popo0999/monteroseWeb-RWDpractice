@@ -36,6 +36,7 @@ body{
     line-height: 1.75rem;
     letter-spacing: 0.1rem;
 }
+
 .hfc{
     height:fit-content;
 }
@@ -61,6 +62,9 @@ body{
 .bdb1{
     border-bottom: 2px solid #fff;
 }
+.w-90{
+    width: 90%;
+}
 /* -----header-------------- */
 .bgimg{
     background: url(./images/mainvisual-image1.jpg) center center;
@@ -79,7 +83,7 @@ body{
 .hambar{
     position: fixed;
     right: 5%;
-    top: 50px;
+    top: 30px;
     /* font-size: 1.5rem; */
     text-align: center;
     z-index: 999;
@@ -335,6 +339,23 @@ body{
     width: 100%;
     /* height: 30vw; */
     background-size: cover;
+}
+
+.footerLogoMd{
+    width: 170px;
+}
+
+.footerMenuA{
+    font-size: 14px;
+    color: #222;
+    letter-spacing: normal;
+    font-weight:600;
+    line-height: 1.75rem;
+    letter-spacing: 0.2rem;
+}
+
+.footerPT{
+    padding-top: 90px;
 }
 
 @media (min-width:768px){
