@@ -348,12 +348,16 @@ a , a:hover{
     max-width: 250px;
     width: 50%;
     margin-top: 50px;
-
+    transition: 0.5s;
+}
+.pinkbtn:hover{
+    opacity: 0.6;
 }
 .pinkbtn a{
     color: #F9F4EA;
     text-decoration: none;
 }
+
 /* ---------------news------------------------ */
 .news{
     background-color: #F9F4EA;
