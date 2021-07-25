@@ -475,7 +475,7 @@ footer a:hover{
         border-right: 4px solid #fff;
         transform: rotate(135deg);
     }
-}
+  
 
 
 @media (min-width:992px){
@@ -484,5 +484,14 @@ footer a:hover{
     }
     .maxh168{
         max-height: 168px;
+    }
+    .mdenlarge{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .mdtitle{
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 5px;
     }
 }
